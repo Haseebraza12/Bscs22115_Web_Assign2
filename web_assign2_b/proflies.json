@@ -1,0 +1,24 @@
+[
+    {
+        "Name": "Haseeb Ur Rehman",
+        "Title": "Web Developer",
+        "TargetedKeywords": ["Node.js", "Express", "JavaScript"],
+        "Education": "BS in Computer Science",
+        "Certification": "Certified Full Stack Developer",
+        "Contact": {
+            "Email": "haseeb@example.com",
+            "Phone": "123-456-7890"
+        }
+    },
+    {
+        "Name": "Ibrahim Nadeem",
+        "Title": "Data Analyst",
+        "TargetedKeywords": ["Python", "Data Science", "Machine Learning"],
+        "Education": "MS in Data Analytics",
+        "Certification": "Data Science Professional Certificate",
+        "Contact": {
+            "Email": "ibrahim.khan@example.com",
+            "Phone": "987-654-3210"
+        }
+    }
+]
