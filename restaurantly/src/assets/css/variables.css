@@ -1,0 +1,12 @@
+:root {
+    --default-font: "Roboto", system-ui, -apple-system;
+    --heading-font: "Playfair Display", sans-serif;
+    --nav-font: "Poppins", sans-serif;
+    
+    --default-color: #fff;
+    --heading-color: #fff;
+    --nav-color: #fff;
+    --accent-color: #cda45e;
+    --contrast-color: #fff;
+    --background-color: #0c0b09;
+  }
