@@ -1,19 +1,39 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import MainLayout from './layouts/MainLayout';
-import Home from './pages/Home';
-//import StarterPage from './pages/StarterPage';
+import React from "react";
+import Header from "./Components/Header";
+import Hero from "./Components/Hero";
+import About from "./Components/About";
+import Whyus from "./Components/Why_us";
+import Menu from "./Components/Menu";
+import Specials from "./Components/Specials";
+import Events from "./Components/Events";
+import BookATable from "./Components/BookATable";
+import Testimonials from "./Components/Testimonials";
+import Gallery from "./Components/Gallery";
+import Chefs from "./Components/Chefs";
+import Contact from "./Components/Contacts";
+import Footer from "./Components/footer";
+
 
 function App() {
+
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<MainLayout />}>
-          <Route index element={<Home />} />
-          <Route path="starter" element={<StarterPage />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <div>
+    
+      <Header/>
+      <Hero/>
+      <About/>
+      <Whyus/>
+      <Menu/>
+      <Specials/>
+      <Events/>
+      <BookATable/>
+      <Testimonials/>
+      <Gallery/>
+      <Chefs/>
+      <Contact/>
+      <Footer/>
+    </div>
   );
 }
 
-export default App;
+export default App
