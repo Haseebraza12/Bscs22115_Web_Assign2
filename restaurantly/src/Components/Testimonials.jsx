@@ -9,19 +9,19 @@ import '../styles/Testimonials.css';
 const Testimonials = () => {
   const testimonialsData = [
     {
-      img: 'assets/img/testimonials/testimonial-1.jpg',
+      img: 'restaurantly\src\assets\img\testimonials\testimonials-1.jpg',
       name: 'John Doe',
       position: 'Customer',
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     },
     {
-      img: 'assets/img/testimonials/testimonial-2.jpg',
+      img: 'restaurantly\src\assets\img\testimonials\testimonials-2.jpg',
       name: 'Jane Smith',
       position: 'Customer',
       text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
     },
     {
-      img: 'assets/img/testimonials/testimonial-3.jpg',
+      img: 'restaurantly\src\assets\img\testimonials\testimonials-3.jpg',
       name: 'Alice Johnson',
       position: 'Customer',
       text: 'Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.',

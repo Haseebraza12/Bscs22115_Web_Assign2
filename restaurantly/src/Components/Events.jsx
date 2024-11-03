@@ -12,7 +12,7 @@ const eventsData = [
       "Duis aute irure dolor in reprehenderit in voluptate velit.",
       "Ullamco laboris nisi ut aliquip ex ea commodo consequat."
     ],
-    image: "assets/img/events-slider/events-slider-1.jpg"
+    image: require("../assets/img/events-slider/events-slider-1.jpg")
   },
   {
     title: "Private Parties",
@@ -23,7 +23,7 @@ const eventsData = [
       "Duis aute irure dolor in reprehenderit in voluptate velit.",
       "Ullamco laboris nisi ut aliquip ex ea commodo consequat."
     ],
-    image: "assets/img/events-slider/events-slider-2.jpg"
+    image: require("../assets/img/events-slider/events-slider-2.jpg")
   },
   {
     title: "Custom Parties",
@@ -34,7 +34,7 @@ const eventsData = [
       "Duis aute irure dolor in reprehenderit in voluptate velit.",
       "Ullamco laboris nisi ut aliquip ex ea commodo consequat."
     ],
-    image: "assets/img/events-slider/events-slider-3.jpg"
+    image: require("../assets/img/events-slider/events-slider-3.jpg")
   },
 ];
 
